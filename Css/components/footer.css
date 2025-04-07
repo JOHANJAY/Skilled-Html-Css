@@ -1,0 +1,17 @@
+.footer {
+  background: var(--color-blue-900);
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 16px;
+  }
+}
+
+
+@media (width >= 50.625em) {
+  .footer {
+    padding-block: 24px;
+  }
+}
